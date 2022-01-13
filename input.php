@@ -141,7 +141,6 @@ if (isset($_POST['delete'])) {
                             <td><?= $user->jenis ?></td>
                             <td><?= $user->lat ?></td>
                             <td><?= $user->lng ?></td>
-
                             <td>
                               <form method="post">
                                 <input type="submit" class="btn btn-success" name="update" value="Update">
@@ -154,7 +153,6 @@ if (isset($_POST['delete'])) {
                       </tbody>
                     </table>
                   </div>
-
                 </div>
               </div>
               <?php include('footer.php'); ?>

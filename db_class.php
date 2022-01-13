@@ -30,7 +30,7 @@ class Db_Class
     // Fungsi untuk menampilkan seluruh isi table
     function getPoint()
     {
-        $sql = "select *from public." . $this->table_name;
+        $sql = "SELECT * FROM hotel ORDER BY id";
         return pg_query($sql);
     }
 
